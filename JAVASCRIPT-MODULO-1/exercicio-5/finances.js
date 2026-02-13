@@ -5,14 +5,7 @@ do {
 
     option = parseInt(prompt(
         
-        `Amount: ${money}
-        
-        Choose one of the options below:
-        1 - Deposit: 
-        2 - Withdraw: 
-        3 - Close:
-        
-        Encerrar`
+        `Amount: CAD$ ${money}\n\nChoose one of the options below:\n1 - Deposit: \n2 - Withdraw: \n3 - Close:`
     ))
 
     switch (option) {
