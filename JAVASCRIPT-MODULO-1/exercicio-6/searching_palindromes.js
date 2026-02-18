@@ -1,4 +1,4 @@
-const word = prompt("Type a word:")
+const word = prompt("Type a word:").toLowerCase()
 let invertedWord = ""
 
 for (let i = word.length -1; i >= 0 ; i--) {
