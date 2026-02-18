@@ -41,3 +41,21 @@ const others = arr.slice(-4)
 console.log(hobbits)
 console.log(others)
 
+// Concat
+const society = hobbits.concat(others, "Boromir")
+console.log(society)
+
+// Substitution of the elements
+// splice
+const removedElements = society.splice(index, 1, "Gandalf, The Gray")
+console.log(society)
+console.log(removedElements)
+
+// Iterating on elements
+for (let i = 0; i < society.length; i++) {
+    const element = society[i];
+
+    console.log(element + " is in the position " + i)
+
+}
+
