@@ -5,8 +5,8 @@ let option = ""
 do {
     option = prompt(
         "Welcome to the Property Registration\n" +
-        "Total of Appartments: " + apts.length +
-        "\n\n1. New appartment\n2. Appartments List\n3. Exit"
+        "Total of Apartments: " + apts.length +
+        "\n\n1. New apartment\n2. Apartments List\n3. Exit"
     )
 
     switch (option) {
