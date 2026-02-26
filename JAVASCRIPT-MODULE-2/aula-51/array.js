@@ -47,14 +47,23 @@ const personagens = [
 
 // console.log(totalLevel)
 
-const race = personagens.reduce(function (previousValue, personagem) {
-    if (previousValue[personagem.raca]) {
-        previousValue[personagem.raca].push(personagem)
-    } else {
-        previousValue[personagem.raca] = [personagem]
-    }
-    return previousValue
+// const race = personagens.reduce(function (previousValue, personagem) {
+//     if (previousValue[personagem.raca]) {
+//         previousValue[personagem.raca].push(personagem)
+//     } else {
+//         previousValue[personagem.raca] = [personagem]
+//     }
+//     return previousValue
 
-}, {})
+// }, {})
 
-console.log(race)
+// console.log(race)
+
+// Sort
+
+const sortPersonagens = personagens.slice().sort(function (a, b) {
+    return a.nivel - b.nivel
+})
+
+console.log(personagens)
+console.log(sortPersonagens)
