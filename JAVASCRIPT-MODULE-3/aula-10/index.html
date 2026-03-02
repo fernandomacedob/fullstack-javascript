@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sending values from DOM to Javascript</title>
+</head>
+<body>
+    <h1>Sending values from DOM to Javascript</h1>
+    <hr>
+    <h2>Register</h2>
+    <section>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <br><br>
+        <label for="Password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <label for="passwordConfirm">Confirm password:</label>
+        <input type="password" id="passwordConfirm" name="passwordConfirm">
+        <br><br>
+        <button onclick="register(this.parentNode)">Register</button>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
